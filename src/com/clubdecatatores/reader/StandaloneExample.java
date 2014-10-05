@@ -11,7 +11,7 @@ import android.view.KeyEvent;
  * This example demostrates the use of the view as a standalone view that has been created within
  * a layout.
  * 
- * @author Moritz 'Moss' Wundke (b.thax.dcg@gmail.com)
+
  *
  */
 public class StandaloneExample extends Activity {

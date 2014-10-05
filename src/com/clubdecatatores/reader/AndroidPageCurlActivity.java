@@ -18,7 +18,7 @@ import android.widget.Toast;
  * <p>
  * For more information about the project visit the projects site: http://code.google.com/p/android-page-curl/
  * 
- * @author Moritz 'Moss' Wundke (b.thax.dcg@gmail.com)
+
  *
  */
 public class AndroidPageCurlActivity extends Activity implements OnClickListener  {

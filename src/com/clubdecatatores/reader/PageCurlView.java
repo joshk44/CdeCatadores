@@ -25,7 +25,7 @@ import android.view.View;
 
 /**
  * 
- * @author Moritz 'Moss' Wundke (b.thax.dcg@gmail.com)
+
  *
  */
 public class PageCurlView extends View {

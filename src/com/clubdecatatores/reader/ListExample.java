@@ -9,7 +9,7 @@ import android.os.Bundle;
 /**
  * This is a example on how the view can be used in ViewGroup widget like a ListView.
  * 
- * @author Moritz 'Moss' Wundke (b.thax.dcg@gmail.com)
+
  *
  */
 public class ListExample extends ListActivity {
