@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clubdecatatores.reader"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="4" />
+
+    <application
+        android:icon="@drawable/icono"
+        android:label="@string/app_name" >
+        <activity
+            android:name="AndroidPageCurlActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="sensor" >
+        </activity>
+        <activity
+            android:name="ListExample"
+            android:label="@string/list_example"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="SplashActivity"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="Club de Catadores"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="StandaloneExample"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/standalone_example"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
